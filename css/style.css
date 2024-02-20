@@ -1,6 +1,7 @@
 /* Shared Styles Start */
 header,
-main, footer {
+main,
+footer {
     max-width: 1320px;
 }
 
@@ -144,6 +145,8 @@ body {
     background: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%);
     justify-content: space-between;
     padding: 70px 120px;
+    justify-content: space-between;
+    padding-right: 40px ;
 }
 
 #party-celebration-2 {
@@ -166,18 +169,57 @@ body {
 }
 
 .btn-primary {
-    background-color: none;
+    background: none;
+    border: none;
     padding: 12px 15px;
     border-radius: 5px;
-    outline: none;
-    border: none;
     margin: 30px 0px;
+    color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
+    line-height: 24px;
 }
 
 /* Mid Night Party Section END */
+
+/* Location Section START */
+
+.location-section {
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    margin-top: 100px;
+}
+
+.location-container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.specific-color-red {
+    color: red;
+}
+
+#join-button {
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    border: none;
+    color: white;
+    height: 55px;
+    width: 165px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+/* Location Section END */
 
 /* Coming Soon Section START */
 
@@ -386,8 +428,9 @@ input[type="email"] {
     align-items: center;
     justify-content: center;
     padding-bottom: 30px;
-    
+
 }
+
 .phone {
     display: flex;
 }
