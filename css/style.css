@@ -1,8 +1,8 @@
 /* Shared Styles Start */
 header,
-main,
-footer {
+main {
     max-width: 1320px;
+    margin-left: 10px;
 }
 
 body {
@@ -137,6 +137,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px;
+    width: 100%;
 }
 
 .mid-night-party-content {
@@ -146,7 +147,6 @@ body {
     justify-content: space-between;
     padding: 70px 120px;
     justify-content: space-between;
-    padding-right: 40px;
 }
 
 #party-celebration-2 {
@@ -166,6 +166,7 @@ body {
     line-height: 30px;
     text-align: left;
     text-align: justify;
+    padding-right: 60px;
 }
 
 .btn-primary {
@@ -424,9 +425,9 @@ input[type="email"] {
 .footer-container {
     background-color: black;
     margin-top: 120px;
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 400;
+}
+.footer-container, hr {
+    border: 1px solid #ffffff26;
 }
 
 .footer-contact-info-container {
@@ -453,13 +454,26 @@ input[type="email"] {
 
 .weblink {
     display: flex;
+    color: #fff;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 #f-web-link {
     padding-left: 10px;
+    color: #fff;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
 }
 
-
+.contact-icons {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    padding-top: 30px;
+}
 
 .footer-icons {
     padding-left: 90px;
@@ -477,16 +491,14 @@ input[type="email"] {
     display: flex;
     justify-content: space-between;
     padding-right: 200px;
-
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
 }
-
-.reserved-text {
-    color: #fff;
-}
-
 
 .copyrights-paragraph {
     padding-left: 90px;
+
 }
 
 .Unsubscribe {
@@ -498,6 +510,10 @@ input[type="email"] {
     justify-content: space-between;
     padding-top: 30px;
     padding-bottom: 40px;
+    color: #fff;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 /* --------------------- Footer Section END ----------------------- */
